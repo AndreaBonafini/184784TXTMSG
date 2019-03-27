@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <StackPanel>
-        <TextBox x:Name="txtTextbox"></TextBox>
+        <TextBox x:Name="txtInput"> </TextBox>
         <Button x:Name="btnButton" Click="btnButton_Click_1">Click for Translation</Button>
         <Label x:Name="lblLabel"></Label>
     </StackPanel>
