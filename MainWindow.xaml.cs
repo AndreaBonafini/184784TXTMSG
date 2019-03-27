@@ -30,7 +30,58 @@ namespace _184784TXTMSG
             {
                 lblLabel.Content = "see you";
             }
-            //use else if for the rest 
+            Elseif (txtInput.Text == " ")
+            {
+                lblLabel.Content = " ");
+            }
+            Elseif (txtInput.Text == " ")
+            {
+                lblLabel.Content = " ");
+            }
+            Elseif (txtInput.Text == " ")
+            {
+                lblLabel.Content = " ");
+            }
+            Elseif (txtInput.Text == " ")
+            {
+                lblLabel.Content = " ");
+            }
+            Elseif (txtInput.Text == " ")
+            {
+                lblLabel.Content = " ");
+            }
+            Elseif (txtInput.Text == " ")
+            {
+                lblLabel.Content = " ");
+            }
+            Elseif (txtInput.Text == " ")
+            {
+                lblLabel.Content = " ");
+            }
+            Elseif (txtInput.Text == " ")
+            {
+                lblLabel.Content = " ");
+            }
+            Elseif (txtInput.Text == " ")
+            {
+                lblLabel.Content = " ");
+            }
+            Elseif (txtInput.Text == " ")
+            {
+                lblLabel.Content = " ");
+            }
+            Elseif (txtInput.Text == " ")
+            {
+                lblLabel.Content = " ");
+            }
+            Elseif (txtInput.Text == " ")
+            {
+                lblLabel.Content = " ");
+            }
+            Elseif (txtInput.Text == " ")
+            {
+                lblLabel.Content = " ");
+            }
         }
     }
 }
