@@ -30,57 +30,49 @@ namespace _184784TXTMSG
             {
                 lblLabel.Content = "see you";
             }
-            Elseif (txtInput.Text == " ")
+            else if (txtInput.Text == ":-)")
             {
-                lblLabel.Content = " ");
+                lblLabel.Content = "I'm happy";
             }
-            Elseif (txtInput.Text == " ")
+            else if (txtInput.Text == ":-(")
             {
-                lblLabel.Content = " ");
+                lblLabel.Content = "I'm unhappy";
             }
-            Elseif (txtInput.Text == " ")
+            else if (txtInput.Text == ";-)")
             {
-                lblLabel.Content = " ");
+                lblLabel.Content = "wink";
             }
-            Elseif (txtInput.Text == " ")
+            else if (txtInput.Text == ":-P")
             {
-                lblLabel.Content = " ");
+                lblLabel.Content = "Stick out toungue";
             }
-            Elseif (txtInput.Text == " ")
+            else if (txtInput.Text == "(~.~)")
             {
-                lblLabel.Content = " ");
+                lblLabel.Content = "sleepy";
             }
-            Elseif (txtInput.Text == " ")
+            else if (txtInput.Text == "TA")
             {
-                lblLabel.Content = " ");
+                lblLabel.Content = "totally awesome";
             }
-            Elseif (txtInput.Text == " ")
+            else if (txtInput.Text == "CCC")
             {
-                lblLabel.Content = " ");
+                lblLabel.Content = "Canadian Computing Competition";
             }
-            Elseif (txtInput.Text == " ")
+            else if (txtInput.Text == "CUZ")
             {
-                lblLabel.Content = " ");
+                lblLabel.Content = "because";
             }
-            Elseif (txtInput.Text == " ")
+            else if (txtInput.Text == "TY")
             {
-                lblLabel.Content = " ");
+                lblLabel.Content = "thank-you";
             }
-            Elseif (txtInput.Text == " ")
+            else if (txtInput.Text == "YW")
             {
-                lblLabel.Content = " ");
+                lblLabel.Content = "you're welcome";
             }
-            Elseif (txtInput.Text == " ")
+            else if (txtInput.Text == "TTYL")
             {
-                lblLabel.Content = " ");
-            }
-            Elseif (txtInput.Text == " ")
-            {
-                lblLabel.Content = " ");
-            }
-            Elseif (txtInput.Text == " ")
-            {
-                lblLabel.Content = " ");
+                lblLabel.Content = "talk to you later";
             }
         }
     }
