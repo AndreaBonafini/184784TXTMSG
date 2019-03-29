@@ -1,4 +1,8 @@
-﻿using System;
+/*Jesse Stanley
+ *3/27/2019
+ *TXT Message translater
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
