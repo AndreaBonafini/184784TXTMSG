@@ -30,54 +30,106 @@ namespace _184784TXTMSG
         }
         private void btnButton_Click_1(object sender, RoutedEventArgs e)
         {
-            if (txtInput.Text == "CU") 
-            {
-                lblLabel.Content = "see you";
-            }
-            else if (txtInput.Text == ":-)")
-            {
-                lblLabel.Content = "I'm happy";
-            }
-            else if (txtInput.Text == ":-(")
-            {
-                lblLabel.Content = "I'm unhappy";
-            }
-            else if (txtInput.Text == ";-)")
-            {
-                lblLabel.Content = "wink";
-            }
-            else if (txtInput.Text == ":-P")
-            {
-                lblLabel.Content = "Stick out toungue";
-            }
-            else if (txtInput.Text == "(~.~)")
-            {
-                lblLabel.Content = "sleepy";
-            }
-            else if (txtInput.Text == "TA")
-            {
-                lblLabel.Content = "totally awesome";
-            }
-            else if (txtInput.Text == "CCC")
-            {
-                lblLabel.Content = "Canadian Computing Competition";
-            }
-            else if (txtInput.Text == "CUZ")
-            {
-                lblLabel.Content = "because";
-            }
-            else if (txtInput.Text == "TY")
-            {
-                lblLabel.Content = "thank-you";
-            }
-            else if (txtInput.Text == "YW")
-            {
-                lblLabel.Content = "you're welcome";
-            }
-            else if (txtInput.Text == "TTYL")
-            {
-                lblLabel.Content = "talk to you later";
-            }
-        }
+           string TextEntered = txtEntered.Text;
+
+            //TextEntered = txtEntered.Text.ToUpper();
+
+                if (TextEntered == "CU")
+                {
+                    lblOutput.Content = "see you";
+                }
+                else if (TextEntered == ":-)")
+                {
+                    lblOutput.Content = "I'm happy";
+                }
+                else if (TextEntered == ":-(")
+                {
+                    lblOutput.Content = "I'm unhappy";
+                }
+                else if (TextEntered == ";-)")
+                {
+                    lblOutput.Content = "wink";
+                }
+                else if (TextEntered == ":-P")
+                {
+                    lblOutput.Content = "Stick out toungue";
+                }
+                else if (TextEntered == "(~.~)")
+                {
+                    lblOutput.Content = "sleepy";
+                }
+                else if (TextEntered == "TA")
+                {
+                    lblOutput.Content = "totally awesome";
+                }
+                else if (TextEntered == "CCC")
+                {
+                    lblOutput.Content = "Canadian Computing Competition";
+                }
+                else if (TextEntered == "CUZ")
+                {
+                    lblOutput.Content = "because";
+                }
+                else if (TextEntered == "TY")
+                {
+                    lblOutput.Content = "thank-you";
+                }
+                else if (TextEntered == "YW")
+                {
+                    lblOutput.Content = "you're welcome";
+                }
+                else if (TextEntered == "TTYL")
+                {
+                    lblOutput.Content = "talk to you later";
+                }
+                else if (TextEntered == "see you")
+                {
+                    lblOutput.Content = "CU";
+                }
+                else if (TextEntered == "I'm happy")
+                {
+                    lblOutput.Content = ":-)";
+                }
+                else if (TextEntered == "I'm unhappy")
+                {
+                    lblOutput.Content = ":-(";
+                }
+                else if (TextEntered == "wink")
+                {
+                    lblOutput.Content = ";-)";
+                }
+                else if (TextEntered == "Stick out toungue")
+                {
+                    lblOutput.Content = ":-P";
+                }
+                else if (TextEntered == "sleepy")
+                {
+                    lblOutput.Content = "(~.~)";
+                }
+                else if (TextEntered == "totally awesome")
+                {
+                    lblOutput.Content = "TA";
+                }
+                else if (TextEntered == "Canadian Computing Competition")
+                {
+                    lblOutput.Content = "CCC";
+                }
+                else if (TextEntered == "because")
+                {
+                    lblOutput.Content = "CUZ";
+                }
+                else if (TextEntered == "thank-you")
+                {
+                    lblOutput.Content = "TY";
+                }
+                else if (TextEntered == "you're welcome")
+                {
+                    lblOutput.Content = "YW";
+                }
+                else if (TextEntered == "talk to you later")
+                {
+                    lblOutput.Content = "TTYL";
+                }
+         }       
     }
 }
